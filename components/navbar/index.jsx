@@ -6,7 +6,7 @@ import { BsMoonFill, BsFillSunFill } from 'react-icons/bs';
 
 const Navbar = () => {
   const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme, systemTheme } = useTheme();
 
   // When mounted on client, now we can show the UI
   useEffect(() => setMounted(true), []);

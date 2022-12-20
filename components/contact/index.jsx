@@ -1,8 +1,8 @@
-import { BsLinkedin, BsTelegram, BsInstagram, BsMedium } from 'react-icons/bs';
+import { BsLinkedin, BsTelegram, BsInstagram, BsGithub } from 'react-icons/bs';
 
 const Contact = () => {
   return (
-    <section id='contact' className="my-10 md:my-20 lg:my-32">
+    <section id="contact" className="my-10 md:my-20 lg:my-32">
       <h2 className="tet-2xl font-bold md:text-4xl md:font-extrabold">
         Say hi at <br />
         mukhammadxuja@gmail.com <br />
@@ -15,6 +15,11 @@ const Contact = () => {
           </a>
         </li>
         <li className="text-xl md:text-2xl">
+          <a href="https://github.com/mukhammadxuja" target="_blank" rel="noopener noreferrer">
+            <BsGithub />
+          </a>
+        </li>
+        <li className="text-xl md:text-2xl">
           <a href="http://" target="_blank" rel="noopener noreferrer">
             <BsTelegram />
           </a>
@@ -22,11 +27,6 @@ const Contact = () => {
         <li className="text-xl md:text-2xl">
           <a href="http://" target="_blank" rel="noopener noreferrer">
             <BsInstagram />
-          </a>
-        </li>
-        <li className="text-xl md:text-2xl">
-          <a href="http://" target="_blank" rel="noopener noreferrer">
-            <BsMedium />
           </a>
         </li>
       </ul>
