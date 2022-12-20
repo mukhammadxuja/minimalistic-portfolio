@@ -6,11 +6,17 @@ import Layout from 'components/layout';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider defaultTheme="system" enableSystem={true} attribute="class">
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
-    </ThemeProvider>
+    <div className='bg-primary dark:bg-dark'>
+      <ThemeProvider
+        defaultTheme="system"
+        enableSystem={true}
+        attribute="class"
+      >
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </ThemeProvider>
+    </div>
   );
 }
 

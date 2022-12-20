@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --light-bg: #fbe1dd;
+    --dark-bg: #000000;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
