@@ -10,7 +10,7 @@ const Contact = () => {
       </h2>
       <ul className="my-5 flex items-center space-x-4 md:my-10">
         <li className="text-xl md:text-2xl">
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/mukhammad-anvarov-99649b22a/" target="_blank" rel="noopener noreferrer">
             <BsLinkedin />
           </a>
         </li>
@@ -20,12 +20,12 @@ const Contact = () => {
           </a>
         </li>
         <li className="text-xl md:text-2xl">
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a href="http://t:me//akzmsh" target="_blank" rel="noopener noreferrer">
             <BsTelegram />
           </a>
         </li>
         <li className="text-xl md:text-2xl">
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/mukhammadxuja/" target="_blank" rel="noopener noreferrer">
             <BsInstagram />
           </a>
         </li>

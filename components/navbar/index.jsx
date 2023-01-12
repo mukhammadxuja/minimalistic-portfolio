@@ -45,7 +45,7 @@ const Navbar = () => {
         />
       </Link>
       <ul className="flex items-center space-x-4">
-      <li className="text-lg font-bold">
+        <li className="text-lg font-bold">
           <Link href="#projects">Projects</Link>
         </li>
         <li className="text-lg font-bold">
@@ -53,6 +53,9 @@ const Navbar = () => {
         </li>
         <li className="text-lg font-bold">
           <Link href="#contact">Contact</Link>
+        </li>
+        <li className="text-lg font-bold">
+          <Link href="#">Resume</Link>
         </li>
         {renderChangeTheme()}
       </ul>
