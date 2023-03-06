@@ -3,7 +3,7 @@ import { BsLinkedin, BsTelegram, BsInstagram, BsGithub } from 'react-icons/bs';
 const Contact = () => {
   return (
     <section id="contact" className="my-10 md:my-20 lg:my-32">
-      <h2 className="tet-2xl font-bold md:text-4xl md:font-extrabold">
+      <h2 className="text-xl font-bold md:text-4xl md:font-extrabold">
         Say hi at <br />
         mukhammadxuja@gmail.com <br />
         or stay in touch.
