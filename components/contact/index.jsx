@@ -25,7 +25,7 @@ const Contact = () => {
           </a>
         </li>
         <li className="text-xl md:text-2xl">
-          <a href="https://www.instagram.com/mukhammadxuja/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/anvarv__/" target="_blank" rel="noopener noreferrer">
             <BsInstagram />
           </a>
         </li>

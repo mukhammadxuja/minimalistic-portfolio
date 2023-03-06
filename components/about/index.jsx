@@ -28,7 +28,7 @@ const About = () => {
         </div>
         <div className="my-4 flex items-center justify-between space-y-2">
           <div>
-            <h4 className="text-xl font-bold md:text-2xl">Team IT Academy</h4>
+            <h4 className="text-xl font-bold md:text-2xl">Team IT Academy <sup className="text-sm text-[#C15866]">Study</sup></h4>
             <p className="text-lg font-semibold md:text-xl"> - Full Stack Developer</p>
           </div>
           <p>Jul 2021 - Dec 2020</p>

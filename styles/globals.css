@@ -8,7 +8,25 @@
     --dark-bg: #000000;
   }
 
+  @font-face {
+    font-family: 'My custom font bold';
+    font-weight: 900;
+    src: url('/fonts/Dystopian Bold.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'My custom font regular';
+    font-weight: 700;
+    src: url('/fonts/Dystopian-regular.woff2') format('woff2');
+  }
+
   html {
     scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .tools {
+    @apply my-1 md:my-2 cursor-default mr-2 select-none rounded-full border border-gray-700 py-1 px-5 text-sm font-semibold duration-200 hover:bg-[#C15866]/20 md:text-lg lg:text-xl;
   }
 }

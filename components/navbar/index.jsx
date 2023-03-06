@@ -18,7 +18,7 @@ const Navbar = () => {
     if (currentTheme === 'dark') {
       return (
         <BsFillSunFill
-          className="h-6 w-6"
+          className="h-6 w-6 duration-200 hover:text-[#C15866]"
           role="button"
           onClick={() => setTheme('light')}
         />
@@ -26,7 +26,7 @@ const Navbar = () => {
     } else {
       return (
         <BsMoonFill
-          className="h-4 w-4"
+          className="h-4 w-4 duration-200 hover:text-[#C15866]"
           role="button"
           onClick={() => setTheme('dark')}
         />
@@ -45,16 +45,16 @@ const Navbar = () => {
         />
       </Link>
       <ul className="flex items-center space-x-4">
-        <li className="text-lg font-bold">
+        <li className="text-lg font-bold duration-200 hover:text-[#C15866]">
           <Link href="#projects">Projects</Link>
         </li>
-        <li className="text-lg font-bold">
+        <li className="text-lg font-bold duration-200 hover:text-[#C15866]">
           <Link href="#about">About Me</Link>
         </li>
-        <li className="text-lg font-bold">
+        <li className="text-lg font-bold duration-200 hover:text-[#C15866]">
           <Link href="#contact">Contact</Link>
         </li>
-        <li className="text-lg font-bold">
+        <li className="text-lg font-bold duration-200 hover:text-[#C15866]">
           <Link href="#">Resume</Link>
         </li>
         {renderChangeTheme()}
