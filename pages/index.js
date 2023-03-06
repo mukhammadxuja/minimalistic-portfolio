@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { motion } from 'framer-motion';
 
 import { Header, Projects, About, Contact, Tools } from 'components';
 
@@ -11,11 +12,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.webp" />
       </Head>
 
-      <Header />
-      <Projects />
-      <About />
-      <Tools />
-      <Contact />
+      <motion.div
+        initial={{ y: 25, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{
+          duration: 0.75,
+        }}
+      >
+        <Header />
+        <Projects />
+        <About />
+        <Tools />
+        <Contact />
+      </motion.div>
     </div>
   );
 }
